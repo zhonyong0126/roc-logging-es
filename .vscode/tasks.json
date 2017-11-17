@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/Roc.Logging.Es.Sample/Roc.Logging.Es.Sample.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
